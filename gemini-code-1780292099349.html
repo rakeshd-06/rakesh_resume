@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh D | People Analytics & HR Data Strategy</title>
+    <!-- Tailwind CSS for sleek, modern UI styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for high-quality developer iconography -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        /* Style to visibly show editable regions when hovered */
+        [contenteditable="true"]:hover {
+            outline: 2px dashed #3b82f6;
+            outline-offset: 4px;
+            cursor: edit;
+        }
+        [contenteditable="true"]:focus {
+            outline: 2px solid #2563eb;
+            outline-offset: 4px;
+            background-color: rgba(59, 130, 246, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen selection:bg-blue-500 selection:text-white">
+
+    <!-- TOP EDITOR UTILITY BAR -->
+    <div class="sticky top-0 z-50 bg-blue-600 text-white px-4 py-2 text-center text-sm font-medium shadow-md flex justify-between items-center">
+        <div class="flex items-center gap-2 mx-auto">
+            <i data-lucide="edit-3" class="w-4 h-4"></i>
+            <span><strong>Live Recruiter Editor Mode Active:</strong> Click on any text on this webpage to change or update it instantly!</span>
+        </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- LEFT SIDEBAR: PROFILE & CONTACT (FIXED POSITIONING ON LARGE SCREENS) -->
+        <aside class="lg:col-span-4 space-y-6">
+            <div class="bg-slate-800/80 border border-slate-700/50 rounded-2xl p-6 text-center shadow-xl backdrop-blur-sm sticky top-16">
+                <!-- User Profile Photo Box -->
+                <div class="relative w-40 h-40 mx-auto mb-6 group">
+                    <img src="Rakesh D.jpeg" alt="Rakesh D" class="w-full h-full object-cover rounded-2xl shadow-md border-2 border-slate-600 group-hover:border-blue-500 transition-colors"> <!--[cite: 1] -->
+                    <div class="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-xs text-slate-200">
+                        Swap 'Rakesh D.jpeg' file to update
+                    </div>
+                </div>
+
+                <!-- Identity Elements -->
+                <h1 contenteditable="true" class="text-2xl font-bold text-white tracking-tight">RAKESH D</h1> <!--[cite: 1] -->
+                <p contenteditable="true" class="text-blue-400 font-medium text-sm mt-1">People Analytics | HR Data Strategy</p> <!--[cite: 1] -->
+                
+                <hr class="my-6 border-slate-700/60">
+
+                <!-- Contact Grid -->
+                <div class="space-y-4 text-left text-sm text-slate-300">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-slate-700/50 rounded-lg text-blue-400"><i data-lucide="phone" class="w-4 h-4"></i></div>
+                        <span contenteditable="true">+91-9620058868</span> <!--[cite: 1] -->
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-slate-700/50 rounded-lg text-blue-400"><i data-lucide="mail" class="w-4 h-4"></i></div>
+                        <span contenteditable="true">rakesh2687@aol.com</span> <!--[cite: 1] -->
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-slate-700/50 rounded-lg text-blue-400"><i data-lucide="linkedin" class="w-4 h-4"></i></div>
+                        <span contenteditable="true">linkedin.com/in/rakesh-d</span> <!--[cite: 1] -->
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="p-2 bg-slate-700/50 rounded-lg text-blue-400"><i data-lucide="map-pin" class="w-4 h-4"></i></div>
+                        <span contenteditable="true">Bangalore, India</span> <!--[cite: 1] -->
+                    </div>
+                </div>
+
+                <hr class="my-6 border-slate-700/60">
+
+                <!-- Action Button for Recruiters -->
+                <button onclick="window.print()" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-medium py-3 px-4 rounded-xl transition-all shadow-lg shadow-blue-600/20 flex items-center justify-center gap-2 text-sm">
+                    <i data-lucide="download" class="w-4 h-4"></i> Print / Save Portfolio as PDF
+                </button>
+            </div>
+        </aside>
+
+        <!-- RIGHT MAIN CONTENT: DETAILS, IMPACT METRICS & WORK HISTORY -->
+        <main class="lg:col-span-8 space-y-8">
+            
+            <!-- SECTION 1: ABOUT / SUMMARY -->
+            <section class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-6 shadow-xl">
+                <h2 class="text-lg font-semibold text-white mb-3 flex items-center gap-2">
+                    <i data-lucide="user" class="text-blue-400 w-5 h-5"></i> Profile Executive Summary
+                </h2>
+                <p contenteditable="true" class="text-slate-300 leading-relaxed text-sm">
+                    HR Analytics and People Operations professional with over 15 years of experience in driving talent analytics, and HR reporting strategies across global organizations. Expertise in transforming complex HR and recruitment data into actionable insights using Workday, Power BI, Tableau, and SQL to support executive decision-making and business growth.[cite: 1]
+                </p>
+            </section>
+
+            <!-- SECTION 2: METRICS / HIGHLIGHTS (Crucial Recruiter Bait) -->
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-gradient-to-br from-slate-800 to-slate-800/40 border border-slate-700/50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-blue-400 mb-1" contenteditable="true">40-45%</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-medium" contenteditable="true">Manual Effort Saved</div> <!--[cite: 1] -->
+                </div>
+                <div class="bg-gradient-to-br from-slate-800 to-slate-800/40 border border-slate-700/50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-emerald-400 mb-1" contenteditable="true">35%</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-medium" contenteditable="true">Faster Turnaround Time</div> <!--[cite: 1] -->
+                </div>
+                <div class="bg-gradient-to-br from-slate-800 to-slate-800/40 border border-slate-700/50 rounded-xl p-5 text-center">
+                    <div class="text-3xl font-bold text-purple-400 mb-1" contenteditable="true">30-35%</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-medium" contenteditable="true">Dashboard Adoption Jump</div> <!--[cite: 1] -->
+                </div>
+            </section>
+
+            <!-- SECTION 3: SKILLS ARCHITECTURE -->
+            <section class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-6 shadow-xl space-y-4">
+                <h2 class="text-lg font-semibold text-white flex items-center gap-2">
+                    <i data-lucide="cpu" class="text-blue-400 w-5 h-5"></i> Technical & Domain Capabilities
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                        <span class="text-slate-400 text-xs block mb-1 uppercase font-semibold tracking-wider">HCM & Core Systems</span>
+                        <p contenteditable="true" class="text-slate-200 font-medium">Workday, SmartRecruiters, Greenhouse, GEM, Eightfold AI, SAP Concur</p> <!--[cite: 1] -->
+                    </div>
+                    <div>
+                        <span class="text-slate-400 text-xs block mb-1 uppercase font-semibold tracking-wider">Data Analytics & Analytics Systems</span>
+                        <p contenteditable="true" class="text-slate-200 font-medium">Power BI, Tableau, SQL Data Analysis, Excel / Google Workspace</p> <!--[cite: 1] -->
+                    </div>
+                    <div>
+                        <span class="text-slate-400 text-xs block mb-1 uppercase font-semibold tracking-wider">Functional Specialties</span>
+                        <p contenteditable="true" class="text-slate-200 font-medium">Talent Acquisition Operations, Funnel Analytics, HR Governance, DEI Analytics</p> <!--[cite: 1] -->
+                    </div>
+                    <div>
+                        <span class="text-slate-400 text-xs block mb-1 uppercase font-semibold tracking-wider">Emerging & AI Tools</span>
+                        <p contenteditable="true" class="text-slate-200 font-medium">ChatGPT, Claude, Gemini, Automated AI Chatbots (FRSHBot)</p> <!--[cite: 1] -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 4: PROFESSIONAL HISTORY TIMELINE -->
+            <section class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-6 shadow-xl space-y-6">
+                <h2 class="text-lg font-semibold text-white flex items-center gap-2 mb-2">
+                    <i data-lucide="briefcase" class="text-blue-400 w-5 h-5"></i> Enterprise Experience Timeline
+                </h2>
+
+                <div class="space-y-8 relative border-l border-slate-700 ml-2">
+                    
+                    <!-- ROLE 1: FRESHWORKS -->
+                    <div class="relative pl-6 group">
+                        <div class="absolute w-3 h-3 bg-blue-500 rounded-full -left-[6px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 contenteditable="true" class="text-base font-semibold text-white">Talent Acquisition Operations Manager</h3> <!--[cite: 1] -->
+                                <p contenteditable="true" class="text-sm text-slate-400 font-medium">Freshworks</p> <!--[cite: 1] -->
+                            </div>
+                            <span contenteditable="true" class="text-xs bg-slate-700 text-slate-300 px-2.5 py-1 rounded-full font-medium">Jan 2026 - May 2026</span> <!--[cite: 1] -->
+                        </div>
+                        <ul contenteditable="true" class="text-sm text-slate-300 mt-2 list-disc pl-4 space-y-1">
+                            <li>Spearheaded talent acquisition data intelligence covering funnel conversion, pipeline velocity, and diversity frameworks.</li> <!--[cite: 1] -->
+                            <li>Contributed to integrating FRSHBot, leveraging AI metrics engines for self-service system scaling.</li> <!--[cite: 1] -->
+                            <li>Cut engineering manual metrics pipelines by 40% utilizing automated enterprise reporting templates.</li> <!--[cite: 1] -->
+                        </ul>
+                    </div>
+
+                    <!-- ROLE 2: ISP -->
+                    <div class="relative pl-6 group">
+                        <div class="absolute w-3 h-3 bg-slate-600 rounded-full -left-[6px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 contenteditable="true" class="text-base font-semibold text-white">HR Analytics & Reporting Analyst (Consultant)</h3> <!--[cite: 1] -->
+                                <p contenteditable="true" class="text-sm text-slate-400 font-medium">International School Partnership</p> <!--[cite: 1] -->
+                            </div>
+                            <span contenteditable="true" class="text-xs bg-slate-700 text-slate-300 px-2.5 py-1 rounded-full font-medium">Oct 2025 - Dec 2025</span> <!--[cite: 1] -->
+                        </div>
+                        <ul contenteditable="true" class="text-sm text-slate-300 mt-2 list-disc pl-4 space-y-1">
+                            <li>Authored 25+ advanced custom Workday dashboards evaluating attrition tracks, calculated fields, and compensation profiles globally.</li> <!--[cite: 1] -->
+                            <li>Reduced operational response waiting metrics on cross-border business queries by 35%.</li> <!--[cite: 1] -->
+                        </ul>
+                    </div>
+
+                    <!-- ROLE 3: NVENT -->
+                    <div class="relative pl-6 group">
+                        <div class="absolute w-3 h-3 bg-slate-600 rounded-full -left-[6px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 contenteditable="true" class="text-base font-semibold text-white">People Analytics Analyst</h3> <!--[cite: 1] -->
+                                *   <p contenteditable="true" class="text-sm text-slate-400 font-medium">nVent</p> <!--[cite: 1] -->
+                            </div>
+                            <span contenteditable="true" class="text-xs bg-slate-700 text-slate-300 px-2.5 py-1 rounded-full font-medium">May 2025 - Aug 2025</span> <!--[cite: 1] -->
+                        </div>
+                        <ul contenteditable="true" class="text-sm text-slate-300 mt-2 list-disc pl-4 space-y-1">
+                            <li>Maintained robust global leadership scorecards showcasing core metrics including ESG alignment profiles.</li> <!--[cite: 1] -->
+                            <li>Accelerated adoption patterns by over 30% by refactoring layout designs inside production Tableau installations.</li> <!--[cite: 1] -->
+                        </ul>
+                    </div>
+
+                    <!-- ROLE 4: AIRBNB -->
+                    <div class="relative pl-6 group">
+                        <div class="absolute w-3 h-3 bg-slate-600 rounded-full -left-[6px] top-1.5 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-wrap justify-between items-start gap-1">
+                            <div>
+                                <h3 contenteditable="true" class="text-base font-semibold text-white">Senior Analyst - Data & Reporting</h3> <!--[cite: 1] -->
+                                <p contenteditable="true" class="text-sm text-slate-400 font-medium">Airbnb</p> <!--[cite: 1] -->
+                            </div>
+                            <span contenteditable="true" class="text-xs bg-slate-700 text-slate-300 px-2.5 py-1 rounded-full font-medium">Jan 2023 - May 2025</span> <!--[cite: 1] -->
+                        </div>
+                        <ul contenteditable="true" class="text-sm text-slate-300 mt-2 list-disc pl-4 space-y-1">
+                            <li>Managed over 200 annual high-complexity requests supporting HR Business Partners and international executives.</li> <!--[cite: 1] -->
+                            <li>Built strict structural governance frameworks ensuring perfect system data quality logs inside Workday.</li> <!--[cite: 1] -->
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SECTION 5: EDUCATION & CREDENTIALS -->
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-5 shadow-xl">
+                    <h2 class="text-sm font-semibold text-white flex items-center gap-2 mb-3">
+                        <i data-lucide="graduation-cap" class="text-blue-400 w-4 h-4"></i> Formal Education
+                    </h2>
+                    <div class="space-y-3 text-xs">
+                        <div>
+                            <span class="text-blue-400 font-semibold block" contenteditable="true">MBA - Marketing</span> <!--[cite: 1] -->
+                            <span class="text-slate-300" contenteditable="true">Auden Technology & Management Academy, Bengaluru (2011)</span> <!--[cite: 1] -->
+                        </div>
+                        <div>
+                            <span class="text-blue-400 font-semibold block" contenteditable="true">Bachelor of Computer Applications (BCA)</span> <!--[cite: 1] -->
+                            <span class="text-slate-300" contenteditable="true">SRNMNC, Shimoga (2008)</span> <!--[cite: 1] -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-5 shadow-xl">
+                    <h2 class="text-sm font-semibold text-white flex items-center gap-2 mb-3">
+                        <i data-lucide="languages" class="text-blue-400 w-4 h-4"></i> Languages spoken
+                    </h2>
+                    <div class="flex flex-wrap gap-2 pt-1">
+                        <span contenteditable="true" class="bg-slate-700 text-slate-200 text-xs px-3 py-1 rounded-lg font-medium">English</span> <!--[cite: 1] -->
+                        <span contenteditable="true" class="bg-slate-700 text-slate-200 text-xs px-3 py-1 rounded-lg font-medium">Hindi</span> <!--[cite: 1] -->
+                        <span contenteditable="true" class="bg-slate-700 text-slate-200 text-xs px-3 py-1 rounded-lg font-medium">Kannada</span> <!--[cite: 1] -->
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- INITIALIZATION SCRIPT FOR ICONS -->
+    <script>
+        // Renders clean icons from the lucide package automatically
+        lucide.createIcons();
+    </script>
+</body>
+</html>
